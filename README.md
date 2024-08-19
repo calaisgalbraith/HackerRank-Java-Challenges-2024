@@ -1,2 +1,2 @@
 # HackerRank-Java-Challenges-2024
-HackerRank Java Challenges
+Completed Java Challenges from HackerRank
