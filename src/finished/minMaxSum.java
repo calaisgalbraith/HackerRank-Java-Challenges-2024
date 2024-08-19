@@ -14,11 +14,11 @@ class Result {
     long maxValue = 0;
     long minValue = 0;
     
-    for (int i = 0; i < 4; i ++) {
-    minValue += arr.get(i);
-    maxValue += arr.get(i + 1);
+    for (int i = 0; i < 4; i ++) { // iterate through list
+    minValue += arr.get(i); // get values of list 0-3 (lowest 4)
+    maxValue += arr.get(i + 1); // get values of list 1-4 (top 4)
     }
-    System.out.println(minValue + " " + maxValue);
+    System.out.println(minValue + " " + maxValue); // print result
     }
 
 }
